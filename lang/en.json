@@ -1,0 +1,8 @@
+{
+	"m_title": "Garage Door Toggle Button",
+	"m_descr": "Link a sensor and a switch into a single unit. Eg. a door sensor and a relay into a combined garage door device.",
+	"l_sensor": "Garage door sensor",
+    "h_sensor": "The state of this sensor will become the state of the new scene. Pick your sensor that indicate if the garage door is opened or closed.",
+    "l_relay": "Garage door relay",
+    "h_relay": "Select the relay switch that is connected to your garage motor."
+}

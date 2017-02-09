@@ -1,0 +1,56 @@
+{
+	"autoload": true,
+	"singleton" : false,
+	"dependencies": [],
+	"category" : "device_enhancements",
+	"author" : "Andreas Cederström",
+	"homepage" : "https://github.com/cederstrom/",
+	"icon" : "open.png",
+	"moduleName":"GarageDoorToggleButton",
+	"version" : "1.0.0",
+	"maturity" : "stable",
+	"repository" : {
+		"type" : "git",
+		"source" : "https://github.com/cederstrom/TODO"
+	},
+	"defaults" : {
+		"title" : "__m_title__",
+		"description" : "__m_descr__",
+		"sensor": "",
+		"relay": ""
+	},
+	"schema": {
+		"type": "object",
+		"properties": {
+			"sensor": {
+				"field": "enum",
+                "datasource": "namespaces",
+                "enum": "namespaces:devices_sensorBinary:deviceId",
+                "required": true
+			},
+			"relay": {
+				"field": "enum",
+                "datasource": "namespaces",
+                "enum": "namespaces:devices_switchBinary:deviceId",
+                "required": true
+			}
+		},
+		"required": false
+	},
+	"options": {
+		"fields": {
+			"sensor": {
+				"label": "__l_sensor__",
+				"helper": "__h_sensor__",
+				"datasource": "namespaces",
+				"optionLabels": "namespaces:devices_sensorBinary:deviceName"
+			},
+			"relay": {
+				"label": "__l_relay__",
+				"helper": "__h_relay__",
+				"datasource": "namespaces",
+				"optionLabels": "namespaces:devices_switchBinary:deviceName"
+			}
+		}
+	}
+}
