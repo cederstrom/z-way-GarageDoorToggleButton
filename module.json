@@ -11,7 +11,7 @@
 	"maturity" : "stable",
 	"repository" : {
 		"type" : "git",
-		"source" : "https://github.com/cederstrom/TODO"
+		"source" : "https://github.com/cederstrom/z-way-GarageDoorToggleButton/"
 	},
 	"defaults" : {
 		"title" : "__m_title__",
