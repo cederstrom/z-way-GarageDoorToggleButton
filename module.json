@@ -5,9 +5,9 @@
 	"category" : "device_enhancements",
 	"author" : "Andreas Cederström",
 	"homepage" : "https://github.com/cederstrom/",
-	"icon" : "open.png",
+	"icon" : "icon.png",
 	"moduleName":"GarageDoorToggleButton",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"maturity" : "stable",
 	"repository" : {
 		"type" : "git",
